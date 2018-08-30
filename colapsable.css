@@ -1,0 +1,76 @@
+body{
+	margin-top: 10%;
+	margin-left: 40%;
+	background: #ccc;
+}
+
+.collapse{
+	position: relative;
+	width: 300px;
+	background: #220;
+	color: #fff;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+	cursor: pointer;
+
+}
+.collapse h4{
+	text-align: center;
+	font-size: 10px;
+
+}
+.collapse p{
+	background: #fff;
+	color: #220;
+	font-size: 12px;
+	padding: 10px 10px;
+	margin-bottom: -10px;
+	display: none;
+}
+i.open{
+	margin-left: 120px;
+
+}
+
+i.close{
+	margin-left: 120px;
+	
+}
+
+
+@media screen and  (min-width: 480px) and (max-width: 767px){
+	.collapse{
+	top: 0;
+	left: 0;
+	
+	width:50%;
+	}
+	i.open{
+		margin-left: 60px;
+	}
+	i.close{
+		margin-left: 60px;
+	}
+
+	
+}
+@media screen and  (max-width: 480px){
+	.collapse{
+	top: 0;
+	left: 0;
+	width:60%;
+	}
+	i.open{
+		margin-left: 50px;
+	}
+	i.close{
+		margin-left: 50px;
+	}
+
+	
+}
+
+
+
+
